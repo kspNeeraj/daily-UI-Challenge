@@ -1,0 +1,208 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+section{
+    height: 90vh;
+}
+/* header part */
+.header{
+    background-color:#844CC5 ;
+    display: grid;
+    grid-template-rows: 1fr 6fr;
+    color: white;
+    font-size: 1rem;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+}
+nav{
+    margin-top: 10px;
+    width: 50%;
+    display: flex;
+    gap: 40px; 
+}
+nav a{
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.nav-bar button{
+    margin-top: 10px;
+    height: 40px;
+    width: 100px;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+.message-box div{
+    margin-left: 10%;
+    width: 40%;
+}
+.message-box div h1{
+    font-size: 2.5rem;
+}
+/* description */
+.description{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    color: #844CC5;
+}
+.description-container{
+    width: 80%;
+    margin-top: -100px;
+    background-color: #844CC5;
+    gap: 5px;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+}
+.speciality{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+.speciality-card{
+    width: 25%;
+}
+.foundation{
+    padding-top: 50px;
+    background-color: white;
+    display: flex;
+}
+
+/* video */
+.video{
+    background-color: #4DD8EB;
+    color:#372EAC ;
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+    align-items: center;
+}
+.video-box{
+    width: 50%;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* product */
+.product-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: auto;
+    color:#2A229C ;
+}
+.product-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-img img{
+    height: 80%;
+}
+.product-description p{
+    color: #848EAA;
+    font-size: 0.9rem;
+}
+.product-description h1{    
+    font-size: 2rem;
+}
+.product-description-container{
+    width: 65%;
+}
+
+/* .company-partners */
+.company-partners{
+    background-color: #F390AC;
+}
+
+
+/* prcing plan */
+.pricing{
+    display: flex;
+    justify-content: center;
+}
+.pricing-container{
+    width: 80%;
+    display: grid;
+    grid-template-rows: 2fr 6fr;
+    margin-top: -150px;
+    background-color: white;
+    position: relative;
+}
+.price-heading{
+    text-align: center;
+    color: #2A229C;
+    display: flex;
+    justify-content: center;
+}
+.price-heading div{
+    width: 70%;
+}
+.price-heading div h1{
+    font-size: 3rem;
+}
+.price-plans{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.price-card{
+    width: 30%;
+    border: 5px solid transparent;
+    border-image: linear-gradient(180deg,#3224AE,#C86DD7);
+    border-image-slice: 1;
+    text-align: center;
+    color: #707C9C;
+    position: relative;
+    
+
+    
+}
+.price-card button{
+    padding: 10px;
+    border: 2px solid #707C9C;
+    background-color: transparent;
+    color: #C86DD7;
+    position: absolute;
+    bottom: 0;
+    bottom: 50px;
+    right: 30%;
+    
+
+}
+.gradient{
+    border: none;
+    background-image: linear-gradient(180deg,#3224AE,#C86DD7);
+    color: white;
+}
+.gradient button{
+    background-color: white;
+    border: none;
+}
+
+/* contatc */
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #707C9C;
+}
+.contact div{
+    width: 30%;
+}
+.social-platform ul{
+    padding-left: 0;
+    list-style: none;
+}
+.social-platform ul li{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
