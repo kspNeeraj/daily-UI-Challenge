@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    height: 100vh;
+}
+.container{
+    height: 100vh;
+    background-color: #373866;
+    display: grid;
+    gap: 50px;
+    grid-template-rows: 1fr 5fr;
+    grid-template-columns: 1fr 2.5fr;
+}
+.header{
+    grid-column: span 2;
+    color: white;
+}
+.category-box{
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.category-box div{
+    color: #373866;
+    background-color: white;
+    height: 100%;
+    width: 80%;
+    text-align: center;
+    border-radius: 50px;
+}
+.category-box div h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+/* //calcilator */
+.calculator-box{
+    background-color: white;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    border-radius: 50px;
+}
+.calculator{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form {
+    height: 80%;
+    width: 80%;
+}
+form table{
+    width: 100%;
+}
+form input{
+    display: block;
+    width: 80%;
+    margin-bottom: 10px;
+    accent-color: #373866;
+    
+}
+.text-center{
+    width: 50%;
+    text-align: center;
+}
+button{
+    padding: 10px;
+    background-color: #373866;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.info{
+    background-color: white;
+}
+.info div{
+    border: 2px solid #373866;
+    margin-bottom: 15px;
+    width: 80%;
+    padding: 5px;
+    border-radius: 10px;
+}
+.info div h4{
+    margin: 0;
+    margin-top: 5px;
+}
+.info div p{
+    margin: 0;
+    font-size: 0.6rem;
+}
+
+
